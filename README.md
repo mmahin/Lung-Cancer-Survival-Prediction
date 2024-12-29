@@ -37,7 +37,7 @@ This repository demonstrates a technical workflow for predicting one-year surviv
 2. Install the dependencies:
   ```bash
   pip install -r requirements.txt
-
+ ```
 
 
 ## Contributing

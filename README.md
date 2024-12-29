@@ -1,2 +1,71 @@
-# Lung-Cancer-Survival-Prediction
-A machine learning project predicting one-year survival for lung cancer patients using clinical and genomic data. Includes data cleaning, EDA, and modeling with Random Forest and Deep Neural Networks. Highlights the role of domain knowledge in handling medical data and optimizing predictive performance.
+# **Lung Cancer Survival Prediction**
+
+## **Overview**
+This repository demonstrates a technical workflow for predicting one-year survival outcomes for lung cancer patients. The project combines data cleaning, exploratory data analysis (EDA), feature engineering, and machine learning to develop robust models using clinical and genomic datasets.
+
+---
+
+## **Features**
+- **Data Preprocessing**:
+  - Handling missing values in clinical data.
+  - Encoding categorical variables.
+  - Normalizing continuous variables for uniform scaling.
+  - Creating target variables for classification.
+  - Merging and integrating genomic data.
+
+- **Exploratory Data Analysis (EDA)**:
+  - Addressing class imbalance.
+  - Identifying correlations and redundancy in features.
+  - Analyzing non-linear relationships using Mutual Information and PCA.
+  - Ranking feature importance using Random Forest.
+
+- **Machine Learning Models**:
+  - **Random Forest Classifier**: A tree-based model for interpretable predictions.
+  - **Deep Neural Network (DNN)**: A non-linear model to capture complex relationships.
+
+- **Model Evaluation**:
+  - Performance metrics including accuracy, precision, recall, and confusion matrices.
+
+---
+
+## **Installation**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/lung-cancer-survival-prediction.git
+   cd lung-cancer-survival-prediction
+
+2. Install the dependencies:
+  ```bash
+  pip install -r requirements.txt
+# Usage
+
+## Data Preprocessing:
+Preprocess clinical and genomic datasets using `data_preprocessing.py`.
+
+## Exploratory Data Analysis:
+Perform EDA and visualize data using `eda.py`.
+
+## Model Training:
+Train models with `train_models.py`.
+
+## Evaluation:
+Evaluate model performance using `evaluate_models.py`.
+
+# Key Insights
+
+## Domain knowledge is crucial for:
+- Handling missing data effectively.
+- Encoding variables to preserve relationships.
+- Engineering features aligned with clinical significance.
+
+# Future Directions
+- Collaborate with domain experts to validate preprocessing steps.
+- Integrate additional data sources such as imaging or time-series data.
+- Experiment with ensemble methods like Gradient Boosting.
+
+# Contributing
+Contributions are welcome! Please open an issue or submit a pull request to propose improvements.
+
+# License
+This repository is licensed under the MIT License. See LICENSE for details.
+

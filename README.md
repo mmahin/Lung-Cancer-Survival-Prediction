@@ -33,10 +33,11 @@ This repository demonstrates a technical workflow for predicting one-year surviv
    ```bash
    git clone https://github.com/your-username/lung-cancer-survival-prediction.git
    cd lung-cancer-survival-prediction
-
+  ```
 2. Install the dependencies:
   ```bash
   pip install -r requirements.txt
+  ```
 # Usage
 
 ## Data Preprocessing:

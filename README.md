@@ -38,12 +38,12 @@ This repository demonstrates a technical workflow for predicting one-year surviv
   ```bash
   pip install -r requirements.txt
 
----
 
-# Contributing
+
+## Contributing
 Contributions are welcome! Please open an issue or submit a pull request to propose improvements.
 
-# License
+## License
 ```
 This repository is licensed under the MIT License. See LICENSE for details.
 

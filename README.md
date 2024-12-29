@@ -33,40 +33,17 @@ This repository demonstrates a technical workflow for predicting one-year surviv
    ```bash
    git clone https://github.com/your-username/lung-cancer-survival-prediction.git
    cd lung-cancer-survival-prediction
-  ```
+
 2. Install the dependencies:
   ```bash
   pip install -r requirements.txt
-  ```
-# Usage
 
-## Data Preprocessing:
-Preprocess clinical and genomic datasets using `data_preprocessing.py`.
 
-## Exploratory Data Analysis:
-Perform EDA and visualize data using `eda.py`.
-
-## Model Training:
-Train models with `train_models.py`.
-
-## Evaluation:
-Evaluate model performance using `evaluate_models.py`.
-
-# Key Insights
-
-## Domain knowledge is crucial for:
-- Handling missing data effectively.
-- Encoding variables to preserve relationships.
-- Engineering features aligned with clinical significance.
-
-# Future Directions
-- Collaborate with domain experts to validate preprocessing steps.
-- Integrate additional data sources such as imaging or time-series data.
-- Experiment with ensemble methods like Gradient Boosting.
 
 # Contributing
 Contributions are welcome! Please open an issue or submit a pull request to propose improvements.
 
 # License
+```
 This repository is licensed under the MIT License. See LICENSE for details.
 
